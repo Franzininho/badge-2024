@@ -435,6 +435,159 @@
 				)
 			)
 		)
+		(symbol "Franzininho-Badge:OLED_128x64_1.3{dblquote}"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -9.652 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "OLED 128x64 1.3\""
+				(at -0.254 -9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Franzininho-Badge:OLED 128x64 1.3in"
+				(at 0.508 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "OLED DISPLAY SSD1306 128 64 I2C IIC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OLED_128x64_1.3{dblquote}_1_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.89 2.54)
+					(end 8.89 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin power_out line
+					(at -3.81 10.16 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 10.16 270)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 10.16 270)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1576,10 +1729,28 @@
 		)
 	)
 	(junction
-		(at 66.04 91.44)
+		(at 175.26 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c2bf1b7-9bf6-46a7-8154-d6a4db4437b9")
+	)
+	(junction
+		(at 213.36 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a1f75d4-78fc-4eae-bab5-7e4235a30f8b")
+	)
+	(junction
+		(at 54.61 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c91e964-e171-4971-979b-beee2b73e235")
+	)
+	(junction
+		(at 175.26 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43345971-a697-4dc9-a891-08f366859e11")
 	)
 	(junction
 		(at 119.38 58.42)
@@ -1588,10 +1759,22 @@
 		(uuid "5465cf85-8c7e-4472-8e6a-de06673a5c45")
 	)
 	(junction
+		(at 213.36 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fa39f54-ad55-4c4d-90ac-12cf89b6c1b2")
+	)
+	(junction
 		(at 139.7 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fc31a42-358b-4afc-850e-b8134ae47790")
+	)
+	(junction
+		(at 177.8 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b15058e6-19ae-418c-af49-89c17b19ea9a")
 	)
 	(junction
 		(at 139.7 58.42)
@@ -1599,9 +1782,151 @@
 		(color 0 0 0 0)
 		(uuid "e86dc193-fdd0-4019-a713-2bf814c1576a")
 	)
+	(junction
+		(at 200.66 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2c311f7-3cca-4e07-99b1-b7f010712395")
+	)
+	(junction
+		(at 200.66 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6714fca-d0e7-42f1-af1e-1dc4502e0b0c")
+	)
 	(wire
 		(pts
-			(xy 66.04 91.44) (xy 66.04 93.98)
+			(xy 166.37 78.74) (xy 175.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033bd71c-1541-41bc-9398-facd42abc7b3")
+	)
+	(wire
+		(pts
+			(xy 152.4 81.28) (xy 161.29 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047b3eea-f23f-42d1-a600-275e9eaabad9")
+	)
+	(wire
+		(pts
+			(xy 213.36 22.86) (xy 213.36 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07dfe944-6cb4-47bf-9730-33d506ffdc63")
+	)
+	(wire
+		(pts
+			(xy 200.66 25.4) (xy 200.66 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc3fd6a-f941-4552-9182-d4cd61b4638c")
+	)
+	(wire
+		(pts
+			(xy 218.44 36.83) (xy 218.44 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112abb14-f249-4a06-ab09-b0cd808f55bd")
+	)
+	(wire
+		(pts
+			(xy 172.72 66.04) (xy 175.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13321e59-5c04-4a80-a199-35c8b74545e0")
+	)
+	(wire
+		(pts
+			(xy 102.87 83.82) (xy 116.84 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133c79dc-07b3-45ae-805e-fcacd0e3abd3")
+	)
+	(wire
+		(pts
+			(xy 175.26 66.04) (xy 177.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f9ecb4-d84e-4e16-8e6c-7422201024d0")
+	)
+	(wire
+		(pts
+			(xy 200.66 36.83) (xy 200.66 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16bc988f-1778-48cc-9fac-9e48755b0f10")
+	)
+	(wire
+		(pts
+			(xy 177.8 74.93) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "185db931-3866-477a-9a04-d056df84834d")
+	)
+	(wire
+		(pts
+			(xy 121.92 81.28) (xy 127 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2b2b68-9167-4ba5-8c41-0f032edbfd48")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26afc0f7-4455-48f5-a3d1-9803ac30a1a8")
+	)
+	(wire
+		(pts
+			(xy 210.82 39.37) (xy 210.82 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad3d790-1133-4b4f-8c37-ed2c4f87a381")
+	)
+	(wire
+		(pts
+			(xy 54.61 38.1) (xy 54.61 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1611,13 +1936,63 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 91.44) (xy 71.12 91.44)
+			(xy 227.33 34.29) (xy 215.9 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4262f4e2-4956-47a6-9a4c-2d68ce7253bb")
+	)
+	(wire
+		(pts
+			(xy 175.26 74.93) (xy 175.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e4d28e-77f5-4b2b-ad5e-a1657b894dd9")
+	)
+	(wire
+		(pts
+			(xy 152.4 91.44) (xy 161.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46fdde30-b99a-4414-ad42-f491c8199401")
+	)
+	(wire
+		(pts
+			(xy 54.61 38.1) (xy 59.69 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4f0b0652-3ca6-416c-af0d-5d8a51292eca")
+	)
+	(wire
+		(pts
+			(xy 177.8 81.28) (xy 186.69 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50153208-d18d-45de-bb67-ee44a65e3942")
+	)
+	(wire
+		(pts
+			(xy 166.37 91.44) (xy 184.15 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b44667-4a67-4c7e-abdc-d6cb1c7d9324")
 	)
 	(wire
 		(pts
@@ -1628,6 +2003,36 @@
 			(type default)
 		)
 		(uuid "59089c96-7ee8-4c3c-89b7-bc49d1895d2e")
+	)
+	(wire
+		(pts
+			(xy 121.92 83.82) (xy 127 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65856b4f-3881-46da-9786-919ab8f74328")
+	)
+	(wire
+		(pts
+			(xy 175.26 63.5) (xy 175.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9831d6-8ced-4d08-aa37-103e3edd041a")
+	)
+	(wire
+		(pts
+			(xy 213.36 31.75) (xy 213.36 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f450f58-0bc0-4fa7-b5fa-96cc4734e834")
 	)
 	(wire
 		(pts
@@ -1661,13 +2066,113 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 88.9) (xy 66.04 91.44)
+			(xy 227.33 36.83) (xy 218.44 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94acf8b2-67fb-4ac1-b3cc-b4d69e604fb9")
+	)
+	(wire
+		(pts
+			(xy 102.87 76.2) (xy 127 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970f6db3-cb05-435d-8e26-1bdcb1b0e833")
+	)
+	(wire
+		(pts
+			(xy 200.66 31.75) (xy 205.74 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978b3a39-cf86-404f-a36b-bbcf4d080966")
+	)
+	(wire
+		(pts
+			(xy 54.61 35.56) (xy 54.61 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9fbb8933-6595-4672-9c72-4b0390881fcf")
+	)
+	(wire
+		(pts
+			(xy 175.26 78.74) (xy 186.69 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6285517-b42e-4a8a-b853-5b19ab0e86de")
+	)
+	(wire
+		(pts
+			(xy 152.4 78.74) (xy 161.29 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae741147-d822-4c41-b8d3-542decfdb27e")
+	)
+	(wire
+		(pts
+			(xy 205.74 25.4) (xy 200.66 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1489695-3b49-4cbf-9f69-4b9347d1107c")
+	)
+	(wire
+		(pts
+			(xy 161.29 68.58) (xy 161.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b191de2d-0316-4a54-abe5-942387bebbdb")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 161.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d31985-779f-462d-9dbc-78fe77740452")
+	)
+	(wire
+		(pts
+			(xy 210.82 31.75) (xy 213.36 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9606cc-4032-490e-a2ba-0d8e579e486a")
+	)
+	(wire
+		(pts
+			(xy 102.87 86.36) (xy 116.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c20c901b-8bf1-4e09-a989-872733be6e76")
 	)
 	(wire
 		(pts
@@ -1681,7 +2186,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 99.06) (xy 66.04 101.6)
+			(xy 54.61 45.72) (xy 54.61 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1711,6 +2216,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 66.04) (xy 175.26 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4fd262-ae4f-46e7-b8e8-edeeed7f006e")
+	)
+	(wire
+		(pts
 			(xy 139.7 48.26) (xy 139.7 53.34)
 		)
 		(stroke
@@ -1718,6 +2233,26 @@
 			(type default)
 		)
 		(uuid "cfe3d3d6-3352-45d6-a830-40782fad1359")
+	)
+	(wire
+		(pts
+			(xy 210.82 36.83) (xy 200.66 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d83de0ff-bbe6-4e41-b9e4-aacb76084dd2")
+	)
+	(wire
+		(pts
+			(xy 166.37 81.28) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2da87d-5edc-4210-9448-212f54836416")
 	)
 	(wire
 		(pts
@@ -1731,13 +2266,33 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 78.74) (xy 66.04 81.28)
+			(xy 177.8 69.85) (xy 177.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3ff507-1bdf-4a7f-9551-01ba539fd109")
+	)
+	(wire
+		(pts
+			(xy 54.61 25.4) (xy 54.61 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e5d015df-a4e4-446c-a7d0-e43ddb4f8cad")
+	)
+	(wire
+		(pts
+			(xy 102.87 81.28) (xy 116.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63e31be-6f33-4a9f-87de-c4e803ec1f87")
 	)
 	(wire
 		(pts
@@ -1749,9 +2304,333 @@
 		)
 		(uuid "e645bb11-2afc-4fd0-84b2-22574d4bd36a")
 	)
+	(wire
+		(pts
+			(xy 210.82 25.4) (xy 213.36 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d5705b-4a5b-4538-b5eb-cd5458f57563")
+	)
+	(wire
+		(pts
+			(xy 166.37 88.9) (xy 184.15 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb47f343-f151-4215-9dfb-c44320f3a947")
+	)
+	(wire
+		(pts
+			(xy 215.9 34.29) (xy 215.9 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec88ac8-5ed4-4452-8444-5b6b7eed7136")
+	)
+	(wire
+		(pts
+			(xy 200.66 31.75) (xy 200.66 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4ba40c-e05d-4e59-876b-8005c998a2b4")
+	)
+	(wire
+		(pts
+			(xy 213.36 25.4) (xy 213.36 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f159d1f7-90ee-4471-afdf-69de04b22cbd")
+	)
+	(wire
+		(pts
+			(xy 161.29 66.04) (xy 167.64 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a6898a-083c-4030-8336-121506dd76f7")
+	)
+	(global_label "SPI SCK"
+		(shape output)
+		(at 184.15 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10171457-8979-406c-aa04-27d60f619a6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.9366 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EPD RES"
+		(shape output)
+		(at 74.93 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "187f722d-85a8-4ff0-95eb-ee4ffbd80020")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.6597 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C SDA"
+		(shape bidirectional)
+		(at 227.33 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "200311b8-e88f-4678-8929-3df5b872ea46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.0465 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EPD CS"
+		(shape output)
+		(at 102.87 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2bc8286e-c0da-40e6-9315-a3fc3079304d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.7487 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C SDA"
+		(shape bidirectional)
+		(at 186.69 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53e99e33-c012-4c36-a5c2-726d5e79d27f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.4065 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EPD RES"
+		(shape output)
+		(at 102.87 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fd1975e-2ee9-43b2-8d22-7238a56c3a4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.5997 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EPD CS"
+		(shape output)
+		(at 72.7077 84.2848 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fbcfd05-920b-4e5f-a7de-d731a7c3c6cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.5864 84.2848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI MOSI"
+		(shape output)
+		(at 184.15 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a06f1c54-be55-43b4-8f83-4e934bc22646")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.7833 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EPD BUSY"
+		(shape output)
+		(at 78.74 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8cdb5f3-efec-4411-a247-e7f8541f82b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.1996 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C SCL"
+		(shape output)
+		(at 186.69 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3ef682d-8f7c-4def-be2b-b7a027485818")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.2347 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EPD D{slash}C"
+		(shape output)
+		(at 102.87 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8ccc895-3031-4079-ac35-6ed479b6f183")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.3577 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C SCL"
+		(shape input)
+		(at 227.33 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0e8603e-264a-4507-b2fd-ca7563016762")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.8747 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LDR"
 		(shape output)
-		(at 71.12 91.44 0)
+		(at 59.69 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1761,12 +2640,56 @@
 		)
 		(uuid "edc8d836-f937-41f4-8f2f-c323f6a01358")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.1012 91.3606 0)
+			(at 65.6712 38.0206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EPD D{slash}C"
+		(shape output)
+		(at 73.66 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef61f693-9b83-4380-961c-1dda99491479")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.1477 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EPD BUSY"
+		(shape input)
+		(at 102.87 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9e8fa24-4151-4a22-afa6-f171ae54321f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.3296 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1830,6 +2753,216 @@
 			(project "Franzininho-Badge-2024"
 				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 163.83 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b9fb1ff-e52f-4e93-996d-019e11442373")
+		(property "Reference" "R4"
+			(at 160.02 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 167.64 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e2aaddd-51ca-4818-8121-a73d08efeca5")
+		)
+		(pin "2"
+			(uuid "fb1d0569-6f33-4363-99fe-eeeab1308523")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 177.8 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bf9477a-85ed-4948-b62b-ddb5ebe0a665")
+		(property "Reference" "R12"
+			(at 176.53 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 176.53 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 177.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fa1120f-ce83-4dc7-aa28-587ec7876c59")
+		)
+		(pin "2"
+			(uuid "3f2a9f18-b168-4381-ba5a-f7533969eb3b")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Franzininho-Badge:OLED_128x64_1.3{dblquote}")
+		(at 214.63 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d0eef9b-a58a-4742-91b9-c5552414cde3")
+		(property "Reference" "U2"
+			(at 226.06 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OLED 128x64 1.3\""
+			(at 226.06 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Franzininho-Badge:OLED 128x64 1.3in"
+			(at 215.138 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fe968d1d-cddb-4723-b338-1305f1ae683c")
+		)
+		(pin "4"
+			(uuid "7fa4d53e-f601-45ed-9ccc-cc4ccb3b529a")
+		)
+		(pin "1"
+			(uuid "9feb140d-076b-4e8c-aaa2-daae3a0c70dc")
+		)
+		(pin "2"
+			(uuid "c5d156b0-29e1-45c2-a200-41ee786318b1")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2031,35 +3164,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 85.09 114.3 90)
+		(lib_id "power:+3V3")
+		(at 213.36 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "61bb6a6c-c08e-4db5-bea0-4a3c588cf27f")
-		(property "Reference" "SW1"
-			(at 86.36 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 86.36 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ"
-			(at 80.01 114.3 0)
+		(uuid "594d1c00-d0dd-494d-b42b-52c92adea315")
+		(property "Reference" "#PWR09"
+			(at 213.36 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,8 +3182,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Tactile-Switches_Made-in-China-C23873_C23873.html"
-			(at 80.01 114.3 0)
+		(property "Value" "+3V3"
+			(at 213.36 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,7 +3209,141 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 114.3 0)
+			(at 213.36 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4107b955-fb48-4643-9e55-0e5fdba8f582")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 175.26 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61a981c7-ccac-4900-95cb-b15753420ceb")
+		(property "Reference" "R11"
+			(at 173.99 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 173.99 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c6de200-3bfc-4a00-8545-023e1a116c7a")
+		)
+		(pin "2"
+			(uuid "517bd79e-e212-42c9-bed1-a0bc6defdbe1")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 77.47 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61bb6a6c-c08e-4db5-bea0-4a3c588cf27f")
+		(property "Reference" "SW1"
+			(at 78.74 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 78.74 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ"
+			(at 72.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Tactile-Switches_Made-in-China-C23873_C23873.html"
+			(at 72.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2167,32 +3433,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 123.19 109.22 180)
+		(lib_id "Device:R_Small_US")
+		(at 163.83 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "740a50aa-a0cd-4c96-9d8a-ec1a7403830c")
-		(property "Reference" "C1"
-			(at 121.92 111.76 90)
+		(uuid "6bd62a48-ec07-449e-bf61-05ffe307e1fb")
+		(property "Reference" "R6"
+			(at 160.02 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100nF"
-			(at 124.46 113.03 90)
+		(property "Value" "1K"
+			(at 167.64 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 123.19 109.22 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 163.83 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +3467,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 109.22 0)
+			(at 163.83 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2210,7 +3476,74 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 109.22 0)
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3f2c19c-30fc-4bed-a794-47a5a853ab57")
+		)
+		(pin "2"
+			(uuid "ae4bf519-8ad0-4156-86e1-e915fa2ed000")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 109.22 146.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "740a50aa-a0cd-4c96-9d8a-ec1a7403830c")
+		(property "Reference" "C1"
+			(at 107.95 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 110.49 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,17 +3567,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 66.04 78.74 0)
+		(lib_id "Device:C_Small")
+		(at 170.18 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8903f236-4c05-4980-9e5e-05a80b093577")
-		(property "Reference" "#PWR05"
-			(at 66.04 82.55 0)
+		(uuid "7b54095f-78e4-418d-a503-946471eec252")
+		(property "Reference" "C4"
+			(at 167.64 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 166.37 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 170.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,25 +3600,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 66.04 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 78.74 0)
+		(property "Datasheet" "~"
+			(at 170.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +3610,277 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 78.74 0)
+			(at 170.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20e4b795-a357-4480-a5d1-59741b4df53c")
+		)
+		(pin "2"
+			(uuid "feebb52c-e9f1-4e08-9512-5c37daf82c6b")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "856259ba-7596-4e7f-810d-71f6cd45c807")
+		(property "Reference" "#PWR08"
+			(at 200.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82d83370-f6ac-4331-814a-ae59b5416a84")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "878fe49a-c62a-41fe-898f-37561d18d9cf")
+		(property "Reference" "#PWR07"
+			(at 161.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf6e84df-9605-49ed-ae7c-373004fa947c")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 119.38 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88ca2bb0-a283-424d-81ce-3daf5160c2a7")
+		(property "Reference" "R9"
+			(at 115.57 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 123.19 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04e59c28-ef09-4b5b-9fa9-ac2e6a2962a0")
+		)
+		(pin "2"
+			(uuid "1f8c9081-a10c-44dd-8a65-5a2bc5eb96c6")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 54.61 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8903f236-4c05-4980-9e5e-05a80b093577")
+		(property "Reference" "#PWR05"
+			(at 54.61 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 54.61 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +3902,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Optical:VT93xx")
-		(at 66.04 85.09 0)
+		(at 54.61 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2309,7 +3910,7 @@
 		(dnp no)
 		(uuid "963b49ec-84e4-4669-908f-31d645e423a0")
 		(property "Reference" "LDR1"
-			(at 68.58 83.8199 0)
+			(at 57.15 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +3919,7 @@
 			)
 		)
 		(property "Value" "VT93xx"
-			(at 68.58 86.3599 0)
+			(at 57.15 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +3928,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical"
-			(at 70.485 85.09 90)
+			(at 59.055 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +3937,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.produktinfo.conrad.com/datenblaetter/125000-149999/140375-da-01-en-FOTOWIDERSTAND__VT_93_N2__THT_.pdf"
-			(at 66.04 86.36 0)
+			(at 54.61 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +3946,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 85.09 0)
+			(at 54.61 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,7 +3971,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 81.28 64.77 90)
+		(at 91.44 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2378,7 +3979,7 @@
 		(dnp no)
 		(uuid "97bb31bf-c9fe-4546-9f92-ee6075fdd8c4")
 		(property "Reference" "R1"
-			(at 77.47 63.5 90)
+			(at 87.63 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,7 +3987,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 85.09 63.5 90)
+			(at 95.25 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +3995,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 81.28 64.77 0)
+			(at 91.44 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,7 +4004,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 64.77 0)
+			(at 91.44 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +4013,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 64.77 0)
+			(at 91.44 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,6 +4031,72 @@
 			(project "Franzininho-Badge-2024"
 				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 175.26 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9801cfe3-3d4f-4a5b-921e-1b4e904b9222")
+		(property "Reference" "#PWR06"
+			(at 175.26 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "842914b2-a955-42c5-b251-be94fe28f481")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2629,7 +4296,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 66.04 96.52 180)
+		(at 54.61 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2637,7 +4304,7 @@
 		(dnp no)
 		(uuid "abfce7c5-2e6f-4d5e-8e96-0f4631122b05")
 		(property "Reference" "R2"
-			(at 64.77 100.33 90)
+			(at 53.34 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2645,7 +4312,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 64.77 92.71 90)
+			(at 53.34 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +4320,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 66.04 96.52 0)
+			(at 54.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +4329,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 96.52 0)
+			(at 54.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +4338,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 96.52 0)
+			(at 54.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,6 +4429,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 163.83 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbd302ef-6a6a-4f2e-bf9f-d21c43eed21b")
+		(property "Reference" "R5"
+			(at 160.02 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 167.64 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af17eaa6-13c0-4cc9-a525-bd2adccc34e1")
+		)
+		(pin "2"
+			(uuid "cf04ee8c-9352-4a89-87e8-cc4d18748dc2")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 104.14 0)
 		(unit 1)
@@ -2830,7 +4564,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 101.6 0)
+		(at 54.61 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2839,7 +4573,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc9fb2d3-2659-4b8a-aead-880398cd9ae0")
 		(property "Reference" "#PWR04"
-			(at 66.04 107.95 0)
+			(at 54.61 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,7 +4582,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 106.68 0)
+			(at 54.61 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +4591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 101.6 0)
+			(at 54.61 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +4600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 101.6 0)
+			(at 54.61 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +4609,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 101.6 0)
+			(at 54.61 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,6 +4624,73 @@
 			(project "Franzininho-Badge-2024"
 				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 208.28 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfd23ac9-8aa4-415f-8767-1e3dc8feae7e")
+		(property "Reference" "C5"
+			(at 205.74 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 204.47 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 208.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70f2655d-d67b-4dcc-83e7-48a7abad46c1")
+		)
+		(pin "2"
+			(uuid "2a4ca57f-eaf5-4b62-9d1e-ea2d12695524")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2957,6 +4758,274 @@
 			(project "Franzininho-Badge-2024"
 				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 208.28 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db22954c-6e43-4a24-899d-187538d3eb6b")
+		(property "Reference" "C6"
+			(at 205.74 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 204.47 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "889c15ce-1833-45f3-8639-f074caff4685")
+		)
+		(pin "2"
+			(uuid "ab580114-2ba5-410f-85cd-41f3bb86b5db")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 163.83 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3866613-beb4-4f08-8761-0cf0f49ca510")
+		(property "Reference" "R3"
+			(at 160.02 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 167.64 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e470d5a8-ec68-47ac-abd9-b08c5e9829b1")
+		)
+		(pin "2"
+			(uuid "2dd3da47-259b-4595-85b5-bc3b5a515130")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 119.38 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eaf05b5b-9c69-4270-bcfc-b96249960bab")
+		(property "Reference" "R8"
+			(at 115.57 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 123.19 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 119.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49b58846-3125-4381-b6dc-b4a4c4c68732")
+		)
+		(pin "2"
+			(uuid "071cd48e-2317-42a8-923f-0bde971470d7")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 119.38 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb9201fe-54bf-452e-b575-65b69eaa4da8")
+		(property "Reference" "R10"
+			(at 115.57 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 123.19 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22f9a25f-5b87-4c08-9c12-b09fc8ce60b2")
+		)
+		(pin "2"
+			(uuid "464de638-7a05-43b6-bbeb-7342447800df")
+		)
+		(instances
+			(project "Franzininho-Badge-2024"
+				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
+					(reference "R10")
 					(unit 1)
 				)
 			)

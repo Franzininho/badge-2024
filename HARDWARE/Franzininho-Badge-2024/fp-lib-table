@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Franzininho-Badge")(type "KiCad")(uri "${KIPRJMOD}/Franzininho-Badge.pretty")(options "")(descr ""))
+)
