@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Franzininho Badge 2024")
-		(date "2024-05-31")
+		(date "2024-06-01")
 		(rev "00")
 		(company "Eng. André A. M. Araújo")
 	)
@@ -4198,7 +4198,7 @@
 		(uuid "98d97159-09ca-495b-ac98-2dc8215b861a")
 	)
 	(junction
-		(at 100.33 48.26)
+		(at 95.25 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98fc2b98-c9a3-4a5a-a8b5-589d7e52e6a0")
@@ -4222,6 +4222,12 @@
 		(uuid "a99df9a8-51fc-4cde-a51e-717b399a4b66")
 	)
 	(junction
+		(at 78.74 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa1ecb71-23b2-4deb-a2d3-d3f3fd625ccc")
+	)
+	(junction
 		(at 25.4 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4234,7 +4240,7 @@
 		(uuid "b40b2594-f476-4854-890b-152ffcaa1744")
 	)
 	(junction
-		(at 205.74 91.44)
+		(at 209.55 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b68ee9ba-0a49-44d1-ab6e-78b37581b892")
@@ -4312,16 +4318,6 @@
 			(type default)
 		)
 		(uuid "0373b9be-106a-4187-a320-57c08b6184fc")
-	)
-	(wire
-		(pts
-			(xy 71.12 25.4) (xy 73.66 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "075077d4-d8b8-4eee-a497-a50257970af2")
 	)
 	(wire
 		(pts
@@ -4445,6 +4441,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 25.4) (xy 81.28 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b782b7-51d8-4b53-8b47-a6ae85a675b3")
+	)
+	(wire
+		(pts
 			(xy 123.19 43.18) (xy 129.54 43.18)
 		)
 		(stroke
@@ -4465,7 +4471,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 91.44) (xy 205.74 93.98)
+			(xy 209.55 91.44) (xy 209.55 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4515,7 +4521,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 22.86) (xy 88.9 27.94)
+			(xy 78.74 25.4) (xy 78.74 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4565,7 +4571,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 86.36) (xy 205.74 86.36)
+			(xy 207.01 86.36) (xy 209.55 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4592,16 +4598,6 @@
 			(type default)
 		)
 		(uuid "26afc0f7-4455-48f5-a3d1-9803ac30a1a8")
-	)
-	(wire
-		(pts
-			(xy 186.69 86.36) (xy 195.58 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28ed2b6a-e0ad-4cd1-8c6c-12ab8cc0748c")
 	)
 	(wire
 		(pts
@@ -4665,7 +4661,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 46.99) (xy 88.9 50.8)
+			(xy 78.74 46.99) (xy 78.74 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4875,7 +4871,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 91.44) (xy 205.74 91.44)
+			(xy 207.01 91.44) (xy 209.55 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4922,6 +4918,16 @@
 			(type default)
 		)
 		(uuid "52dc3d78-bd77-49e4-953f-09150206445d")
+	)
+	(wire
+		(pts
+			(xy 186.69 91.44) (xy 199.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5452e9c0-d4c4-4b85-80ad-ba30f20d69b8")
 	)
 	(wire
 		(pts
@@ -5205,7 +5211,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 86.36) (xy 205.74 91.44)
+			(xy 209.55 86.36) (xy 209.55 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5305,7 +5311,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 43.18) (xy 100.33 43.18)
+			(xy 97.79 43.18) (xy 95.25 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5365,7 +5371,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 48.26) (xy 100.33 50.8)
+			(xy 95.25 48.26) (xy 95.25 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5575,7 +5581,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 43.18) (xy 100.33 48.26)
+			(xy 95.25 43.18) (xy 95.25 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5605,7 +5611,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 48.26) (xy 118.11 48.26)
+			(xy 105.41 48.26) (xy 118.11 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5785,6 +5791,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 33.02) (xy 78.74 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c432c1ee-5c1c-4614-8374-0ef08632ae9f")
+	)
+	(wire
+		(pts
 			(xy 152.4 91.44) (xy 152.4 93.98)
 		)
 		(stroke
@@ -5825,7 +5841,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 43.18) (xy 118.11 43.18)
+			(xy 105.41 43.18) (xy 118.11 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5985,6 +6001,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 86.36) (xy 199.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5dd0272-393e-46eb-a6fe-cc57a0ff8b52")
+	)
+	(wire
+		(pts
 			(xy 63.5 114.3) (xy 63.5 109.22)
 		)
 		(stroke
@@ -6002,16 +6028,6 @@
 			(type default)
 		)
 		(uuid "d83de0ff-bbe6-4e41-b9e4-aacb76084dd2")
-	)
-	(wire
-		(pts
-			(xy 88.9 33.02) (xy 88.9 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8c8b5a7-8ae2-4160-a472-c79015fa4d45")
 	)
 	(wire
 		(pts
@@ -6035,7 +6051,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 48.26) (xy 102.87 48.26)
+			(xy 95.25 48.26) (xy 97.79 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6295,16 +6311,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 91.44) (xy 186.69 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f889d54e-eb3d-4cc4-99b7-33e045b19e59")
-	)
-	(wire
-		(pts
 			(xy 137.16 123.19) (xy 144.78 123.19)
 		)
 		(stroke
@@ -6332,6 +6338,16 @@
 			(type default)
 		)
 		(uuid "fbc9d89e-8ac7-4c76-b43d-517e4d136154")
+	)
+	(wire
+		(pts
+			(xy 71.12 25.4) (xy 78.74 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc03376c-151b-4be9-b332-acb7a411801c")
 	)
 	(wire
 		(pts
@@ -6398,6 +6414,17 @@
 		)
 		(uuid "5fe5b911-c0d5-4a62-a65e-971c5e013204")
 	)
+	(label "LED PA1"
+		(at 109.22 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "83bd9fbc-c5e0-4c00-9934-2bb5a9e58186")
+	)
 	(label "MCU ~{SHUTDOWN}"
 		(at 167.64 66.04 0)
 		(fields_autoplaced yes)
@@ -6431,6 +6458,17 @@
 		)
 		(uuid "96492c6b-2fba-41ec-a399-10bc2350553c")
 	)
+	(label "LED PA2"
+		(at 109.22 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "9aee767b-184d-4a45-aaf9-1cd8ea1fe5fe")
+	)
 	(label "MCU EPD D{slash}~{C}"
 		(at 130.81 73.66 0)
 		(fields_autoplaced yes)
@@ -6441,6 +6479,28 @@
 			(justify left bottom)
 		)
 		(uuid "9efd6b26-6423-4e95-888d-6feed4162525")
+	)
+	(label "LED POWER"
+		(at 78.74 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fe9f63b-30ab-438c-8b29-a11482721902")
+	)
+	(label "LED PC7"
+		(at 191.77 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad864e58-bf39-4d43-8243-c499f73feaf8")
 	)
 	(label "MCU PC4"
 		(at 167.64 76.2 0)
@@ -6496,6 +6556,28 @@
 			(justify left bottom)
 		)
 		(uuid "f2d3c585-48c6-4752-a122-895f9fa6b8ef")
+	)
+	(label "LED PC4"
+		(at 191.77 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4c82328-2a41-425f-87b3-6cfd922db3d4")
+	)
+	(label "SWITCH ~{ON}"
+		(at 54.61 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "f53c4f24-4eb8-4e2c-b009-3cc785e8d8a2")
 	)
 	(global_label "UART TX"
 		(shape output)
@@ -7713,7 +7795,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 199.39 86.36 180)
+		(at 203.2 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7721,7 +7803,7 @@
 		(dnp no)
 		(uuid "10d2381f-f13b-4b51-aaab-91dd3deb0b73")
 		(property "Reference" "D1"
-			(at 194.31 85.09 0)
+			(at 198.12 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7730,7 +7812,7 @@
 			)
 		)
 		(property "Value" "PC4"
-			(at 193.04 87.63 0)
+			(at 196.85 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7739,7 +7821,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 199.39 86.36 0)
+			(at 203.2 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7748,7 +7830,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 86.36 0)
+			(at 203.2 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7757,7 +7839,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 199.39 86.36 0)
+			(at 203.2 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,7 +8207,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 88.9 43.18 90)
+		(at 78.74 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8133,7 +8215,7 @@
 		(dnp no)
 		(uuid "1fa9ef8e-075b-4c0e-987a-184ea0d938db")
 		(property "Reference" "D5"
-			(at 91.44 41.91 90)
+			(at 81.28 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8142,7 +8224,7 @@
 			)
 		)
 		(property "Value" "POWER"
-			(at 91.44 44.45 90)
+			(at 81.28 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +8233,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 88.9 43.18 0)
+			(at 78.74 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8160,7 +8242,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 43.18 0)
+			(at 78.74 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +8251,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 88.9 43.18 0)
+			(at 78.74 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,8 +8424,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.13in 250x122"
-			(at 157.48 144.78 0)
+		(property "Value" "EPD 250x122 2.13\""
+			(at 156.21 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8413,7 +8495,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 199.39 91.44 180)
+		(at 203.2 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8421,7 +8503,7 @@
 		(dnp no)
 		(uuid "24f8b993-a7b3-4722-a081-330ff042ca06")
 		(property "Reference" "D2"
-			(at 194.31 90.17 0)
+			(at 198.12 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8430,7 +8512,7 @@
 			)
 		)
 		(property "Value" "PC7"
-			(at 193.04 92.71 0)
+			(at 196.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8439,7 +8521,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 199.39 91.44 0)
+			(at 203.2 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8448,7 +8530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 91.44 0)
+			(at 203.2 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8457,7 +8539,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 199.39 91.44 0)
+			(at 203.2 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8546,7 +8628,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 73.66 25.4 270)
+		(at 81.28 25.4 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8555,7 +8637,7 @@
 		(dnp no)
 		(uuid "279892d8-e731-4f16-a844-c04de2b7e671")
 		(property "Reference" "TP11"
-			(at 72.39 24.13 90)
+			(at 80.01 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8565,7 +8647,7 @@
 			)
 		)
 		(property "Value" "+3V"
-			(at 78.74 25.4 90)
+			(at 86.36 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8574,7 +8656,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 73.66 20.32 0)
+			(at 81.28 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8583,7 +8665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 20.32 0)
+			(at 81.28 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8592,7 +8674,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 25.4 0)
+			(at 81.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +10101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 50.8 0)
+		(at 95.25 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10028,7 +10110,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b6d3c91-2e63-4be1-bd18-b88841b87859")
 		(property "Reference" "#PWR016"
-			(at 100.33 57.15 0)
+			(at 95.25 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10037,7 +10119,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 55.88 0)
+			(at 95.25 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10046,7 +10128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 50.8 0)
+			(at 95.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10055,7 +10137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 50.8 0)
+			(at 95.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10064,7 +10146,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 50.8 0)
+			(at 95.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10688,7 +10770,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 50.8 0)
+		(at 78.74 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10697,7 +10779,7 @@
 		(fields_autoplaced yes)
 		(uuid "748196a3-8c2e-4efe-9537-769b8a165acc")
 		(property "Reference" "#PWR015"
-			(at 88.9 57.15 0)
+			(at 78.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10706,7 +10788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 55.88 0)
+			(at 78.74 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10715,7 +10797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 50.8 0)
+			(at 78.74 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10724,7 +10806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 50.8 0)
+			(at 78.74 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10733,7 +10815,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 50.8 0)
+			(at 78.74 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12262,7 +12344,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 88.9 30.48 180)
+		(at 78.74 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12270,7 +12352,7 @@
 		(dnp no)
 		(uuid "ad8a3dea-8e36-4937-9960-9d373fc21086")
 		(property "Reference" "R20"
-			(at 87.63 34.29 90)
+			(at 77.47 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12278,7 +12360,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 87.63 26.67 90)
+			(at 77.47 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12286,7 +12368,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 88.9 30.48 0)
+			(at 78.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12295,7 +12377,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 30.48 0)
+			(at 78.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12304,7 +12386,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 30.48 0)
+			(at 78.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12396,7 +12478,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 106.68 43.18 0)
+		(at 101.6 43.18 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12405,7 +12487,7 @@
 		(dnp no)
 		(uuid "b01f5364-9c61-48f0-85c5-ddd9111b01a8")
 		(property "Reference" "D4"
-			(at 111.76 41.91 0)
+			(at 106.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12414,7 +12496,7 @@
 			)
 		)
 		(property "Value" "PA1"
-			(at 113.03 44.45 0)
+			(at 107.95 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12423,7 +12505,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 106.68 43.18 0)
+			(at 101.6 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12432,7 +12514,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 43.18 0)
+			(at 101.6 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12441,7 +12523,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 106.68 43.18 0)
+			(at 101.6 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12663,7 +12745,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 106.68 48.26 0)
+		(at 101.6 48.26 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12672,7 +12754,7 @@
 		(dnp no)
 		(uuid "b83670b9-1aaa-45d4-9cf7-700047282cd2")
 		(property "Reference" "D3"
-			(at 111.76 46.99 0)
+			(at 106.68 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12681,7 +12763,7 @@
 			)
 		)
 		(property "Value" "PA2"
-			(at 113.03 49.53 0)
+			(at 107.95 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12690,7 +12772,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 106.68 48.26 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12699,7 +12781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 48.26 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12708,7 +12790,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 106.68 48.26 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13004,7 +13086,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 93.98 0)
+		(at 209.55 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13013,7 +13095,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1e14687-efc1-49b6-ae75-1e294c3d80de")
 		(property "Reference" "#PWR029"
-			(at 205.74 100.33 0)
+			(at 209.55 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13022,7 +13104,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 99.06 0)
+			(at 209.55 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13031,7 +13113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 93.98 0)
+			(at 209.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13040,7 +13122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 93.98 0)
+			(at 209.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13049,7 +13131,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 93.98 0)
+			(at 209.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13140,71 +13222,6 @@
 			(project "Franzininho-Badge-2024"
 				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 88.9 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf09e1e6-26c7-4de9-81f2-1858f390521b")
-		(property "Reference" "#PWR014"
-			(at 88.9 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V"
-			(at 88.9 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84114fc3-50b8-47c2-a94a-1b8c9026f5b4")
-		)
-		(instances
-			(project "Franzininho-Badge-2024"
-				(path "/ee747d5f-45c6-4057-8a79-48e5002af002"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13981,8 +13998,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.54in 200x200"
-			(at 91.44 144.78 0)
+		(property "Value" "EPD 200x200 1.54\""
+			(at 90.17 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
