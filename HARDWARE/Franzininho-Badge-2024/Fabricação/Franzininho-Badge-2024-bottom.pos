@@ -1,0 +1,9 @@
+### Footprint positions - created on 2024-06-01T14:20:13-0300 ###
+### Printed by KiCad version 8.0.0
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                Package                     PosX       PosY       Rot  Side
+U2        OLED_128x64_1.3"   OLED_128x64_1.3in       139.7000   -88.9000  180.0000  bottom
+U3        EPD_200x200_1.54"  EPAPER_1.54in_200x200   139.7000  -101.6000  180.0000  bottom
+U4        EPD_250x122_2.13"  EPAPER_2.13in_250x122   139.7000  -101.6000  180.0000  bottom
+## End
