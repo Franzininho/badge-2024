@@ -1,0 +1,54 @@
+### Footprint positions - created on 2024-06-01T14:20:13-0300 ###
+### Printed by KiCad version 8.0.0
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val           Package                                             PosX       PosY       Rot  Side
+BT1       CR2032        BatteryHolder_Keystone_3002_1x2032              139.7000  -127.3175  180.0000  top
+C1        100nF         C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     142.2400   -90.6780  180.0000  top
+C2        10uF          C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     142.2400   -92.4560    0.0000  top
+C3        100nF         C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     126.3650   -98.0440  -90.0000  top
+C4        100nF         C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     144.3990  -100.0125   90.0000  top
+C5        10uF          C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     146.1770  -100.0125  -90.0000  top
+C6        100nF         C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     147.9550  -101.1238  -90.0000  top
+C7        100nF         C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     106.9000  -107.2000    0.0000  top
+C8        100nF         C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     117.5000  -107.2000    0.0000  top
+C9        10uF          C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     106.9000  -109.0000  180.0000  top
+C10       10uF          C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     117.5000  -109.0000  180.0000  top
+C11       10uF          C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     168.5925  -127.9525   90.0000  top
+D1        PC4           LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder   129.2225   -80.6450  -90.0000  top
+D2        PC7           LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder   131.1275   -80.6450  -90.0000  top
+D3        PA2           LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder   148.2725   -80.6450  -90.0000  top
+D4        PA1           LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder   150.1775   -80.6450  -90.0000  top
+D5        POWER         LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder   174.3075  -131.2862   90.0000  top
+FID1      Fiducial      Fiducial_0.75mm_Mask1.5mm                       100.7000   -78.1000    0.0000  top
+FID2      Fiducial      Fiducial_0.75mm_Mask1.5mm                       100.7000  -134.0000    0.0000  top
+FID3      Fiducial      Fiducial_0.75mm_Mask1.5mm                       178.7000  -134.0000    0.0000  top
+J1        UART          PinHeader_1x04_P2.54mm_Horizontal               177.4825   -95.2500    0.0000  top
+J2        SWIO          PinHeader_1x03_P2.54mm_Horizontal               177.4825  -107.9500    0.0000  top
+J3        SPI           PinHeader_1x08_P2.54mm_Horizontal               101.9175  -113.0300  180.0000  top
+Q1        SIL2308       SOT-23-6_Handsoldering                          165.1000  -127.3175    0.0000  top
+R1        1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     129.2225   -84.1375   90.0000  top
+R2        1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     131.1275   -84.1375   90.0000  top
+R3        1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     148.2725   -84.1375  -90.0000  top
+R4        1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     150.1775   -84.1375  -90.0000  top
+R5        100K          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     106.3625   -93.9800  -90.0000  top
+R6        1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     147.0025   -97.1550    0.0000  top
+R7        1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     128.9050   -97.2820  180.0000  top
+R8        1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     132.3975   -97.2820  180.0000  top
+R9        1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     128.9050   -98.8060  180.0000  top
+R10       1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     132.3975   -98.8060  180.0000  top
+R11       1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     132.3975  -100.8380  180.0000  top
+R12       1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     132.3975  -102.3620  180.0000  top
+R13       1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     132.3975  -103.8860    0.0000  top
+R14       1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     147.0025  -104.1400  180.0000  top
+R15       1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     132.3975  -105.4100    0.0000  top
+R16       1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     147.0025  -105.7275  180.0000  top
+R17       1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     132.3975  -106.9340    0.0000  top
+R18       100K          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     183.7000  -123.6000    0.0000  top
+R19       100K          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     161.6075  -127.9525   90.0000  top
+R20       1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     174.3075  -127.9525   90.0000  top
+SW1       USER          SW_Push_1P1T_NO_CK_KSC6xxJ                       98.4250   -86.9950    0.0000  top
+SW2       ON            SW_Push_1P1T_NO_CK_KSC6xxJ                      165.1000  -121.6025    0.0000  top
+SW3       RESET         SW_Push_1P1T_NO_CK_KSC6xxJ                      177.1650  -121.6025    0.0000  top
+U1        CH32V003F4P6  TSSOP-20_4.4x6.5mm_P0.65mm                      139.7000  -101.6000  180.0000  top
+## End
