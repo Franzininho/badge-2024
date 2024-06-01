@@ -49,7 +49,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(grid_origin 139.7 101.6)
 		(pcbplotparams
-			(layerselection 0x00010f8_ffffffff)
+			(layerselection 0x00012a0_7ffffffe)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -79,7 +79,7 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk yes)
-			(outputformat 1)
+			(outputformat 4)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -1492,7 +1492,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "635255fa-3f0e-4561-baa1-2100841b7cb0")
@@ -1934,7 +1934,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "10K"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "5a32fd26-85e0-4af1-bb42-dc1158fe5880")
@@ -3809,7 +3809,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "57f21842-ad34-426c-a1e8-6d2c28752a6d")
@@ -5212,7 +5212,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "2cd88a59-c506-491d-8bb9-d3ce23b34285")
@@ -5422,7 +5422,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "c9f7d1ab-73c7-4763-b639-19291496e13f")
@@ -5842,7 +5842,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "ffea0af7-b9aa-46ee-ab9f-c3feed82772b")
@@ -6279,7 +6279,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f2541453-b500-4e2b-a653-331082c93ebc")
@@ -7537,7 +7537,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "08b17c59-baf5-4c69-b585-62369d9b832f")
@@ -7979,7 +7979,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "10K"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "5b836cdc-7a43-477b-ae97-ce03b73a4ef4")
@@ -8416,7 +8416,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "26471206-3243-4432-b85c-d8ccadd4d31a")
@@ -10088,7 +10088,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "10K"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "0f62e4b9-5c9d-4728-8fda-1c3d1f470fd3")
@@ -10529,7 +10529,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "25225a24-f4eb-4b0f-aa3b-6a77cead8d36")
@@ -10739,7 +10739,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "6c0a79cc-bdb5-40ea-ab98-3c17268c8039")

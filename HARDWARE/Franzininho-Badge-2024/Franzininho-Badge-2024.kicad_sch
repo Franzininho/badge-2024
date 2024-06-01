@@ -7476,7 +7476,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 124.46 67.31 90)
 			(effects
 				(font
@@ -7678,7 +7678,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 187.96 69.85 90)
 			(effects
 				(font
@@ -7946,7 +7946,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 124.46 77.47 90)
 			(effects
 				(font
@@ -9451,7 +9451,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 187.96 36.83 90)
 			(effects
 				(font
@@ -9720,7 +9720,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "10K"
 			(at 138.43 163.83 0)
 			(effects
 				(font
@@ -10583,7 +10583,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "10K"
 			(at 72.39 163.83 0)
 			(effects
 				(font
@@ -10718,7 +10718,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 187.96 80.01 90)
 			(effects
 				(font
@@ -11254,7 +11254,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 124.46 72.39 90)
 			(effects
 				(font
@@ -12352,7 +12352,7 @@
 		(dnp no)
 		(uuid "ad8a3dea-8e36-4937-9960-9d373fc21086")
 		(property "Reference" "R20"
-			(at 77.47 34.29 90)
+			(at 82.55 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12360,7 +12360,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 77.47 26.67 90)
+			(at 82.55 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12830,7 +12830,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 187.96 77.47 90)
 			(effects
 				(font
@@ -13512,7 +13512,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "10K"
 			(at 46.99 31.75 0)
 			(effects
 				(font
@@ -13665,7 +13665,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 187.96 67.31 90)
 			(effects
 				(font
@@ -13863,7 +13863,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 124.46 69.85 90)
 			(effects
 				(font
@@ -13930,7 +13930,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "47R"
 			(at 124.46 74.93 90)
 			(effects
 				(font
